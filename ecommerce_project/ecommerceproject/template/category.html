@@ -27,7 +27,7 @@
 {% endif %}
 <div class="mx_auto">
    {% if category %}
-   <img class="my_image" src="{{category.image.url}}" alt="{{category.name}}">
+   <img class="my_image" src="{{category.image.url}}" alt="{{category.name}}" height="100" width="100">
 </div>
    <br>
 <div>
@@ -36,7 +36,7 @@
 </div>
   {% else %}
 <div>
-<img class="my_image my_image_padding" src="{% static 'img/banner.png' %}" alt="Our Products" width="150" height="150">
+<img class="my_image my_image_padding" src="{% static 'img/banner.png' %}" alt="Our Products" width="100" height="100">
 </div>
 <br>
 <div>
